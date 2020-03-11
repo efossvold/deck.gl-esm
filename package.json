@@ -1,0 +1,19 @@
+{
+  "name": "deckgl-esm",
+  "version": "1.0.0",
+  "description": "bundle deck.gl with webpack",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "yarn webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "deck.gl": "^8.0.17",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@purtuga/esm-webpack-plugin": "^1.2.1",
+    "webpack-cli": "^3.3.11",
+    "webpack": "^4.42.0"
+  }
+}
